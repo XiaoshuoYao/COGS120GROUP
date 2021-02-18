@@ -11,6 +11,7 @@ var index = require('./routes/index');
 var search = require('./routes/search');
 var CPH = require('./routes/CollectionPH');
 var PPH = require('./routes/ProfilePH');
+var GPH = require('./routes/GroupPH');
 // Example route
 // var user = require('./routes/user');
 
@@ -42,6 +43,7 @@ app.get('/', index.view);
 app.get('/search', search.view);
 app.get('/CPH', CPH.view);
 app.get('/PPH', PPH.view);
+app.get('/GPH', GPH.view);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
