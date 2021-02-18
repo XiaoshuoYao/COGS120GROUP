@@ -34,8 +34,6 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', index.view);
-app.get('/ProfilePlaceholder', index.view);
-app.get('/CollectionPlaceholder', index.view);
 // Example route
 // app.get('/users', user.list);
 
