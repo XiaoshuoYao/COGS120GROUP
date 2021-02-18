@@ -1,7 +1,8 @@
 .content {
     position: fixed;
     top: 40%;
-    left: 19%;
+    left: 5%;
+    font-size: 32px;
 }
 .back{
     position: absolute;
