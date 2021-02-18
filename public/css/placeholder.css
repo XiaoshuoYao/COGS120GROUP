@@ -1,4 +1,12 @@
-.content{
-    text-align:center;
-    color:orange;
+.content {
+    position: fixed;
+    top: 40%;
+    left: 19%;
+}
+.back{
+    position: absolute;
+    width: 44px;
+    height: 42px;
+    left: 4px;
+    top: 11px;
 }
