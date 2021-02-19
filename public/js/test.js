@@ -3,12 +3,14 @@ $(document).ready(function() {
 })
 
 function initializePage() {
-	$(".test").click(testClick);
+	$(".back").click(backClick);
+
+
 }
 
 function backClick(e) {
     // prevent the page from reloading
-    window.location.href='';
+    window.location.href='/';
 }
 
 function CollectionClick(e) {
