@@ -1,4 +1,5 @@
 .collection {
+    color: white;
     position: absolute;
     top: 45%;
     left: 50%;
@@ -9,13 +10,14 @@
     margin: auto;
     text-align: center;
     font-size: 30px;
-    background: #d5e1df;
+    background: #898989;
     border: 1px solid #C4C4C4;
     box-sizing: border-box;
 
 }
 
 .profile {
+    color: white;
     position: absolute;
     top: 45%;
     left: 30%;
@@ -26,13 +28,14 @@
     margin: auto;
     text-align: center;
     font-size: 30px;
-    background: #d5e1df;
+    background: #898989;
     border: 1px solid #C4C4C4;
     box-sizing: border-box;
 
 }
 
 .group {
+    color: white;
     position: absolute;
     top: 75%;
     left: 40%;
@@ -43,7 +46,7 @@
     margin: auto;
     text-align: center;
     font-size: 30px;
-    background: #d5e1df;
+    background: #898989;
     border: 1px solid #C4C4C4;
     box-sizing: border-box;
 
@@ -65,7 +68,7 @@ input[type=text], select {
 input[type=submit] {
     left: 100%;
     width: 100%;
-    background-color: #92a8d1;
+    background-color: #898989;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -75,7 +78,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #6b5b95;
+  background-color: #484848;
 }
 
 
@@ -86,13 +89,13 @@ div {
 }
 
 .profile:hover{
-    background-color: #618685;
+    background-color: #484848;
 }
 
 .collection:hover{
-    background-color: #618685;
+    background-color: #484848;
 }
 
 .group:hover{
-    background-color: #618685;
+    background-color: #484848;
 }
