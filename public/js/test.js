@@ -4,8 +4,9 @@ $(document).ready(function() {
 
 function initializePage() {
 	$(".back").click(backClick);
-
-
+    $(".profile").click(ProfileClick);
+    $(".collection").click(CollectionClick);
+    $(".group").click(GroupClick);
 }
 
 function backClick(e) {
